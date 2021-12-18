@@ -5,50 +5,99 @@
             "Ticker": "XLK", 
             "10yr Returns": "181.97%",
             "Annualized Avg Returns": "18.05%", 
-            "StDev": 25.18,
-            
-        }
+            "Annualized StDev": 399.67,
+            "Risk Level": "high",
+            "Annualized Sharpe Ratio": 0.000452
+        },
         {
             "ETF": "Health Care Select Sector SPDR",
             "Ticker": "XLV",
-        } 
+            "10yr Returns": "141.81%",
+            "Annualized Avg Returns": "14.07%", 
+            "Annualized StDev": 353.46,
+            "Risk Level": "high",
+            "Annualized Sharpe Ratio": 0.000398
+        }, 
         {
             "ETF": "Financial Select Sector SPDR",
             "Ticker": "XLF",
-        } 
+            "10yr Returns": "105.50%",
+            "Annualized Avg Returns": "10.47%", 
+            "Annualized StDev": 91.68,
+            "Risk Level": "low",
+            "Annualized Sharpe Ratio": 0.001142
+        }, 
         {
             "ETF": "Real Estate Select Sector SPDR",
             "Ticker": "XLRE",
-        } 
+            "10yr Returns": "28.74%",
+            "Annualized Avg Returns": "5.40%", 
+            "Annualized StDev": 45.57,
+            "Risk Level": "none",
+            "Annualized Sharpe Ratio": 0.001185
+        }, 
         {
             "ETF": "Energy Select Sector SPDR",
             "Ticker": "XLE",
-        } 
+            "10yr Returns": "-16.09%",
+            "Annualized Avg Returns": "-1.60%",
+            "Annualized StDev": 214.61,
+            "Risk Level": "medium",
+            "Annualized Sharpe Ratio": -0.000074
+        }, 
         {
             "ETF": "Materials Select Sector SPDR",
             "Ticker": "XLB", 
-            "Return": 500.0, 
-            "STD": -25.0,
-        }
+            "10yr Returns": "85.09%",
+            "Annualized Avg Returns": "8.44%", 
+            "Annualized StDev": 142.75,
+            "Risk Level": "medium",
+            "Annualized Sharpe Ratio": 0.000591
+        },
         {
             "ETF": "Consumer Discretionary Select Sector SPDR",
             "Ticker": "XLY",
-        } 
+            "10yr Returns": "161.31%",
+            "Annualized Avg Returns": "16.00%", 
+            "Annualized StDev": 485.92,
+            "Risk Level": "high",
+            "Annualized Sharpe Ratio": 0.000329
+        }, 
         {
             "ETF": "Industrial Select Sector SPDR",
             "Ticker": "XLI",
-        } 
+            "10yr Returns": "110.72%",
+            "Annualized Avg Returns": "10.98%", 
+            "Annualized StDev": 245.49,
+            "Risk Level": "medium",
+            "Annualized Sharpe Ratio": 0.000447
+        }, 
         {
             "ETF": "Utilities Select Sector SPDR",
             "Ticker": "XLU",
-        } 
+            "10yr Returns": "81.92%",
+            "Annualized Avg Returns": "8.13%", 
+            "Annualized StDev": 151.77,
+            "Risk Level": "medium",
+            "Annualized Sharpe Ratio": 0.000536
+        }, 
         {
             "ETF": "Consumer Staples Select Sector SPDR",
             "Ticker": "XLP",
-        } 
+            "10yr Returns": "92.63%",
+            "Annualized Avg Returns": "9.19%", 
+            "Annualized StDev": 159.55,
+            "Risk Level": "medium",
+            "Annualized Sharpe Ratio": 0.000576
+        }, 
         {
             "ETF": "Communication Services Select Sector SPDR",
             "Ticker": "XLC",
+            "10yr Returns": "35.61%",
+            "Annualized Avg Returns": "13.54%", 
+            "Annualized StDev": 97.32,
+            "Risk Level": "low",
+            "Annualized Sharpe Ratio": 0.001391
         }
     ]
 }
