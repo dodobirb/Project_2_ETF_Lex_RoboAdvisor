@@ -1,1 +1,54 @@
-{"portfoliostrategy": [{"ETF": "Technology Select Sector SPDR", "Return": 25.0, "STD": -25.0}, {"ETF": "Materials Select Sector SPDR", "Return": 500.0, "STD": -25.0}]}
+{
+    "portfoliostrategy": [
+        {
+            "ETF": "Technology Select Sector SPDR",
+            "Ticker": "XLK", 
+            "10yr Returns": "181.97%",
+            "Annualized Avg Returns": "18.05%", 
+            "StDev": 25.18,
+            
+        }
+        {
+            "ETF": "Health Care Select Sector SPDR",
+            "Ticker": "XLV",
+        } 
+        {
+            "ETF": "Financial Select Sector SPDR",
+            "Ticker": "XLF",
+        } 
+        {
+            "ETF": "Real Estate Select Sector SPDR",
+            "Ticker": "XLRE",
+        } 
+        {
+            "ETF": "Energy Select Sector SPDR",
+            "Ticker": "XLE",
+        } 
+        {
+            "ETF": "Materials Select Sector SPDR",
+            "Ticker": "XLB", 
+            "Return": 500.0, 
+            "STD": -25.0,
+        }
+        {
+            "ETF": "Consumer Discretionary Select Sector SPDR",
+            "Ticker": "XLY",
+        } 
+        {
+            "ETF": "Industrial Select Sector SPDR",
+            "Ticker": "XLI",
+        } 
+        {
+            "ETF": "Utilities Select Sector SPDR",
+            "Ticker": "XLU",
+        } 
+        {
+            "ETF": "Consumer Staples Select Sector SPDR",
+            "Ticker": "XLP",
+        } 
+        {
+            "ETF": "Communication Services Select Sector SPDR",
+            "Ticker": "XLC",
+        }
+    ]
+}
