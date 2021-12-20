@@ -13,17 +13,63 @@ Given these facts, we have developed a chatbot to recommend ETF holdings to inte
 
 *Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.*
 
----
+In order to utilize our project, you will need an Amazon Web Services (AWS) account to access the various technologies leveraged. Our project was created using their free options, so you can run it with a free user account as well. All work was done under one root account, with each team member having their own administrator (IAM) account nested within it.
 
-## Installation Guide
+Amazon Web Services used:
 
-*In this section, you should include detailed installation notes containing code blocks and screenshots.*
+- Amazon Simple Storage Service (S3)
+- Amazon Lex
+- Amazon DynamoDB
+- AWS Lambda
+
+All Lambda code was completed in the **Python 3.7** runtime. 
+
+Ensure through your local terminal that your development environment supports the following imports and dependencies. If it does not, reference your terminal installation guide to download the missing software:
+
+* EllieBackStage_GT Lambda function import requirements:
+```
+from datetime import datetime
+from dateutil.relativedelta import relativedelta
+from botocore.vendored import requests
+```
+
+* Ellie_Sector_Selector Lambda function import requirements:
+```
+from datetime import datetime
+from dateutil.relativedelta import relativedelta
+from botocore.vendored import requests
+
+# Required libraries to connect to S3 bucket and read JSON files
+import boto3
+import json
+import uuid
+```
+
+* Financial analysis .ipynb file import requirements:
+ ```
+import investpy.etfs as etfs
+import pandas as pd
+import numpy as np
+import hvplot.pandas as hvplot
+
+# Note that plots were used on the backend only to assist in selecting relevant information for the Ellie Lex bot to return to the user.
+ ```
+The financial analysis which this project utilizes comes from the *investpy* Python library. It is a webscraping library that gets its information from the popular site Investing.com.
+
 
 ---
 
 ## Usage
 
-*This section should include screenshots, code blocks, or animations explaining how to use your project.*
+Stepping through our Ellie chatbot is a simple process: initiate the conversation, provide the relevant information pertaining to your risk appetite, investment amount, etc. when prompted, and decide on a SPDR ETF that is to your liking. 
+
+![Conversation Flow pt. 1](../ellie_convo_1.png)
+
+![Conversation Flow pt. 2](../ellie_convo_2.png)
+
+![Conversation Flow pt. 3](../ellie_convo_3.png)
+
+![Conversation Flow pt. 4](../ellie_convo_4.png)
 
 ---
 
@@ -51,4 +97,6 @@ G. Taraboletti
 
 ## License
 
-*When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.*
+MIT
+
+License file included in repository.
