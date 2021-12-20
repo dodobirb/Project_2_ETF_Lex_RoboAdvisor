@@ -11,8 +11,6 @@ Given these facts, we have developed a chatbot to recommend ETF holdings to inte
 
 ## Technologies
 
-*Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.*
-
 In order to utilize our project, you will need an Amazon Web Services (AWS) account to access the various technologies leveraged. Our project was created using their free options, so you can run it with a free user account as well. All work was done under one root account, with each team member having their own administrator (IAM) account nested within it.
 
 Amazon Web Services used:
@@ -61,15 +59,15 @@ The financial analysis which this project utilizes comes from the *investpy* Pyt
 
 ## Usage
 
-Stepping through our Ellie chatbot is a simple process: initiate the conversation, provide the relevant information pertaining to your risk appetite, investment amount, etc. when prompted, and decide on a SPDR ETF that is to your liking. 
+Stepping through our Ellie chatbot is a simple process: initiate the conversation, provide the relevant information pertaining to your risk appetite, investment amount, etc. when prompted, and decide on a SPDR ETF that is to your liking. Below is an example of the conversation flow to expect when interacting with Ellie:
 
-![Conversation Flow pt. 1](../ellie_convo_1.png)
+![Conversation Flow pt. 1](./ellie_convo_1.png)
 
-![Conversation Flow pt. 2](../ellie_convo_2.png)
+![Conversation Flow pt. 2](./ellie_convo_2.png)
 
-![Conversation Flow pt. 3](../ellie_convo_3.png)
+![Conversation Flow pt. 3](./ellie_convo_3.png)
 
-![Conversation Flow pt. 4](../ellie_convo_4.png)
+![Conversation Flow pt. 4](./ellie_convo_4.png)
 
 ---
 
